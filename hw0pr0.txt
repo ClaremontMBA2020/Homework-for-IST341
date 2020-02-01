@@ -1,0 +1,4 @@
+To what extent do artificial languages (such as Python or Picobot) have the ability to shape human thought, if at all? Or are such languages fundamentally different from human ones, such as Guugu Yimithirr and English?
+
+I think our language has capability to explain one thing in different way, and also some additional expression on it as adverbe. However, a programing language does not have that capability and taht we need to understand the constrains that limit our language to explain one thing in few ways only. 
+therefore, in my understanding, learning a programing language is similar to learning foreign language in one or a few ways to explain something. This might limit my thouhgts to create applications when I was using VBA to build some financial modelings. But, now I feel that I can get to understand what programing language can do if I understand more of the language. 

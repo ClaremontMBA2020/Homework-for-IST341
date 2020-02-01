@@ -1,0 +1,3 @@
+Hello from within VScode
+
+This is a plain text file...
