@@ -44,6 +44,7 @@ for word in LoW:           # the loop variable, word, takes each value!
 
 
 ### after the loop is complete, we can print the total number:
+print("")
 print("After looking at every word, the # of words starting with ", theword)
 print("is,", count)
 
@@ -61,8 +62,21 @@ for word in LoW:           # the loop variable, word, takes each value!
 print("\n The words with ", theword)
 print("are these -> ", wordlist)
 
+#most frequently used word
+from collections import Counter
+print("")
+max_word_dict = dict(Counter(wordlist))
+print(max(max_word_dict, key=max_word_dict.get), " is the most frequently used in this word list")
+counts = 0
 
 
+#import collections
+#mwl = collections.Counter(wordlist)
+#mwl = mwl.most_common()
+#print(mwl, " is the most frequently used in this word list")
+
+
+"""
 # count same words in 'wordlist'
 for numb in wordlist:
     if len(wordlist) > 0:
@@ -71,7 +85,7 @@ for numb in wordlist:
         print(count)
         wordlist.remove(0)
 
-
+"""
 
 """
 Questions!
@@ -124,6 +138,9 @@ created Greta.txt
 
 11. Choose your own question to answer using this type of analysis.
     It can be sophisticated, serious, silly, ... anything.
+
+My analysis would illustrate which word has been used with specific character, and show which word was most frequently said in list of the words. 
+
 
 
 
